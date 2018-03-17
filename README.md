@@ -60,3 +60,39 @@ vào file html
 , cũng cần chú ý về type của thẻ `<script>`, `text/babel` đánh dấu file
 .jsx cần có babel dể compile trước khi để browser trực tiếp đọc nó
 
+## Properties trong React component
+
+Ta đã biết component được tạo ra thế nào rồi, template của nó mới chỉ ở
+dạng tĩnh, lúc này cần tới các properties
+
+Bên ngoài có thể tác động trực tiếp tới component bằng việc truyền vào
+các properties
+
+```
+    <Greeter name='Quydz'/>
+```
+
+, và cách mà component access vào chúng là sử dụng `props`
+
+```
+    var name = this.props.name;
+```
+
+, template embed variable vào bằng cặp `{}` giống với các framework JS khác
+
+```
+    <div>
+        <p>Hello {name}</p>
+    </div>
+```
+
+## Event and Callback
+
+Không có gì đặc biệt, đơn giản là bắt sự kiện vào gọi vào 1 function đã
+được định nghĩa trong Class component
+
+Ngoài ra ta còn biết thêm 1 thứ (chưa biết gọi là gì) đó là từ khóa `ref`,
+có thể là viết tắt của reference
+
+## Nested component
+
