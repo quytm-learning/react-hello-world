@@ -113,4 +113,8 @@ Có 1 thứ mới đó là có thể truyền vào props một function -> từ 
 truyền function vào trong component con, thì từ phía trong, component con
 vẫn có thể gọi function của component cha 1 cách bình thường
 
+## State vs Props
+
+Có 1 so sánh nhỏ giữa State và Props: đó là state được binding real-time,
+trong khi đó, props chỉ được binding 1 lần duy nhất
 
