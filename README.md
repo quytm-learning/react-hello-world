@@ -1,7 +1,9 @@
 # react-practice
 Hello react
 
-Note:
+(Note lại những thứ t hiểu được trong cái series begin về React, do đó
+việc hiểu, giải thích ở bên dưới chỉ mang tính chủ quan và không chính xác
+bởi trình độ nghe hiểu tiếng anh và kiến thức foundation hạn chế)
 
 ## Các bước cơ bản
 
@@ -93,6 +95,15 @@ Không có gì đặc biệt, đơn giản là bắt sự kiện vào gọi vào
 
 Ngoài ra ta còn biết thêm 1 thứ (chưa biết gọi là gì) đó là từ khóa `ref`,
 có thể là viết tắt của reference
+
+## States
+
+Tiếp theo, ta đi đến khái niệm state, thực ra t cũng ếu biết mịa gì về state
+cả, ngồi nghe Tiếng Anh như vịt nghe sấm, nhìn theo demo thì hiểu nôm na
+rằng, state nó là trạng thái của component (haizz ai cũng hiểu đc là thế),
+nó chứa các properties (cái này phải tự set cho nó chứ không có mặc định gì)
+và mỗi lần dữ liệu thay đổi, states được update lại, thì lúc đó ta nói
+component thay đổi trạng thái (state).
 
 ## Nested component
 
