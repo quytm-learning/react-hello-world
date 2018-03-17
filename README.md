@@ -107,3 +107,10 @@ component thay đổi trạng thái (state).
 
 ## Nested component
 
+Khai báo component và gọi nó như một custome tag trong html
+
+Có 1 thứ mới đó là có thể truyền vào props một function -> từ đó, khi
+truyền function vào trong component con, thì từ phía trong, component con
+vẫn có thể gọi function của component cha 1 cách bình thường
+
+
